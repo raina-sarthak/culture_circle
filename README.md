@@ -9,28 +9,15 @@ This repository contains the solutions for the Full Stack Developer Technical As
 - **StockX Web Scraping Application**
 
 ## Table of Contents
-- [Project Structure](#project-structure)
 - [Technologies Used](#technologies-used)
 - [Installation & Setup](#installation--setup)
 - [Features](#features)
 - [API Documentation](#api-documentation)
-- [Testing](#testing)
 - [Deployment](#deployment)
 - [Thought Process Documentation](#thought-process-documentation)
 - [Future Improvements](#future-improvements)
 
 ---
-
-## Project Structure
-```
-/fullstack-dev-assessment
-│── /ecommerce-pdp-web       # Next.js E-commerce PDP
-│── /ecommerce-pdp-mobile    # Flutter E-commerce PDP
-│── /stockx-scraper          # StockX Scraper (Next.js + Playwright)
-│── /docs                    # Documentation
-│── README.md                # Project Overview
-```
-
 ---
 
 ## Technologies Used
@@ -66,13 +53,6 @@ npm run dev
 cd ecommerce-pdp-mobile
 flutter pub get
 flutter run
-```
-
-### **Setup StockX Web Scraper**
-```sh
-cd stockx-scraper
-npm install
-npm run dev
 ```
 
 ---
@@ -123,28 +103,6 @@ Returns all previously scraped products stored in the database.
 
 ---
 
-## Testing
-
-### **E-commerce PDP Web (Next.js)**
-```sh
-cd ecommerce-pdp-web
-npm test
-```
-
-### **E-commerce PDP Mobile (Flutter)**
-```sh
-cd ecommerce-pdp-mobile
-flutter test
-```
-
-### **StockX Scraper Backend**
-```sh
-cd stockx-scraper
-npm test
-```
-
----
-
 ## Deployment
 
 ### **Deploy Next.js Web App on Vercel**
@@ -157,12 +115,6 @@ vercel
 flutter build web
 firebase deploy
 ```
-
-### **Deploy Backend on Render**
-```sh
-git push render main
-```
-
 ---
 
 ## Thought Process Documentation
@@ -179,6 +131,6 @@ Detailed documentation on planning, design choices, implementation, and testing 
 ---
 
 ## Author
-👤 **Your Name**  
-📧 [your.email@example.com](mailto:your.email@example.com)  
-🔗 [LinkedIn Profile](https://linkedin.com/in/yourname)
+👤 **Sarthak Raina**  
+📧 [rainasarthak03@gmail.com](mailto:rainasarthak03@gmail.com)  
+🔗 [LinkedIn Profile](https://linkedin.com/in/sarthak-raina-099856236/)
